@@ -1,0 +1,76 @@
+
+.slider-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    overflow: visible;
+}
+
+.slide {
+    position: relative;
+    overflow: visible;
+    text-align: left;
+}
+
+.slide-image {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.ribbon {
+    position: absolute;
+    top: 0px;
+    right: -18px;
+    width: 175px;
+    height: auto;
+    z-index: 10;
+    transition: transform 0.3s ease;
+}
+
+
+.slide-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: rgb(231, 222, 192,0.651);
+    padding: 20px;
+    border-radius: 10px;
+}
+.slide-title{
+    color:red;
+}
+
+.shop-button {
+    background-color: #7f4530;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+    font-size: 16px;
+    padding: 7px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+
+}
+.custom-arrow {
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.prev-arrow {
+    left: -10px;
+}
+
+.next-arrow {
+    right: -10px;
+}
+
+
