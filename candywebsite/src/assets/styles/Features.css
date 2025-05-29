@@ -1,0 +1,137 @@
+.features-section {
+    background: #6D4C41;
+    color: #333;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+.features-ribbon-wrapper {
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.features-ribbon {
+    height: 60px;
+    background-image: url('../images/botShape.png');
+    background-repeat: repeat-x;
+    background-size: auto;
+}
+
+.features-title {
+    text-align: center;
+    color: #e91e63;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    padding: 0 1.5rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .features-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+    }
+}
+
+.feature-box {
+    background: #f6dbac;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    border-radius: 2px;
+    padding: 2rem 1rem 1.5rem;
+    width: 100%;
+    max-width: 240px;
+    min-height: 160px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 15px;
+}
+
+.ribbon-container {
+    position: relative;
+    width: 100%;
+    height: 60px;
+
+}
+.features-title-on-ribbon {
+    padding-top: 25px;
+    margin-top: 0px;
+    color: #ef344b;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+.ribbon-img {
+    width: 135%;
+    height: auto;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ribbon-text {
+    position: absolute;
+    top: 53%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cursive', sans-serif;
+    font-size: 18px;
+    color: #f6dbac;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+    z-index: 2;
+    padding-bottom: 25px;
+    font-style: italic;
+}
+
+.cake-icon {
+    position: absolute;
+    top: -35px;
+    right: -15px;
+    width: 50px;
+    height: auto;
+    z-index: 3;
+
+}
+
+.feature-content {
+    padding: 0 0.5rem;
+}
+
+.feature-text {
+    font-size: 14px;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.feature-link {
+    color: #009688;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+    transition: color 0.3s ease;
+}
+
+.feature-link:hover {
+    color: #00796B;
+}
+
+.highlight {
+    color: red;
+}
